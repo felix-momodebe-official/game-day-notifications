@@ -139,6 +139,9 @@ cd game-day-notifications
 - SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
 9. Click Create Function.
 
+  ![image](https://github.com/user-attachments/assets/0e63d4b3-a3dd-4d35-ad81-2cf53a54592d)
+
+
 
 ### **Set Up Automation with Eventbridge**
 1. Navigate to the Eventbridge service in the AWS Management Console.
