@@ -86,6 +86,15 @@ cd game-day-notifications
 - Confirm the subscription by clicking the confirmation link in the email.
 6. For SMS, the subscription will be immediately active after creation.
 
+  ![image](https://github.com/user-attachments/assets/6841c9d7-98df-40de-8691-443989d6cb2a)
+
+  ![image](https://github.com/user-attachments/assets/d4adba4c-5b92-44f0-b186-e888dc90154f)
+
+  ![image](https://github.com/user-attachments/assets/5345fa44-af2b-42ef-aa95-9a6ec0f98bfe)
+
+
+
+
 ### **Create the SNS Publish Policy**
 1. Open the IAM service in the AWS Management Console.
 2. Navigate to Policies → Create Policy.
@@ -95,6 +104,9 @@ cd game-day-notifications
 6. Click Next: Review.
 7. Enter a name for the policy (e.g., gd_sns_policy).
 8. Review and click Create Policy.
+
+   ![image](https://github.com/user-attachments/assets/f50e6fe7-b98e-4b42-8c66-2fcdd4d43200)
+
 
 ### **Create an IAM Role for Lambda**
 1. Open the IAM service in the AWS Management Console.
@@ -108,6 +120,9 @@ cd game-day-notifications
 7. Enter a name for the role (e.g., gd_role).
 8. Review and click Create Role.
 9. Copy and save the ARN of the role for use in the Lambda function.
+
+  ![image](https://github.com/user-attachments/assets/d219600e-8ed9-48e8-8af5-0f8616b31139)
+
 
 ### **Deploy the Lambda Function**
 1. Open the AWS Management Console and navigate to the Lambda service.
