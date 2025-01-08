@@ -169,6 +169,11 @@ cd game-day-notifications
 2. Create a test event to simulate execution.
 3. Run the function and check CloudWatch Logs for errors.
 4. Verify that SMS notifications are sent to the subscribed users.
+   
+   - After a few hours, I recieved sevsral game-day updates at regular interval defined by the cron job, in my email, triggered by the lambda function as designed.
+  
+![image](https://github.com/user-attachments/assets/ccf7d9db-e621-4423-b05d-4cddef37a5fa)
+
 
 
 ### **What We Learned**
