@@ -141,6 +141,16 @@ cd game-day-notifications
 
   ![image](https://github.com/user-attachments/assets/0e63d4b3-a3dd-4d35-ad81-2cf53a54592d)
 
+  ###The lambda was triggerd successfully.
+
+  ![image](https://github.com/user-attachments/assets/33a255f5-8312-4288-8f96-50216964c879)
+
+  ###Data was processed, sent to SNS and recieved in the Email (endpoint)
+
+  ![image](https://github.com/user-attachments/assets/a6db634e-7eb1-4814-8a1d-35440b0d4921)
+
+
+
 
 
 ### **Set Up Automation with Eventbridge**
@@ -149,6 +159,9 @@ cd game-day-notifications
 3. Select Event Source: Schedule.
 4. Set the cron schedule for when you want updates (e.g., hourly).
 5. Under Targets, select the Lambda function (gd_notifications) and save the rule.
+
+![image](https://github.com/user-attachments/assets/84ea05ac-ea68-40ab-896a-834599c1b286)
+
 
 
 ### **Test the System**
